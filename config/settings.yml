@@ -1,0 +1,6 @@
+# Configuration for Sentry
+# Sentry will only initialise if dsn is set to some other value
+sentry:
+  dsn:
+  environment: local
+  filter_mask: "[Filtered (client-side)]"
